@@ -1,3 +1,7 @@
+// Assignment 3
+// MainActivity.java
+// Mihir Phatak and Aniket Shendre - Group 3
+
 package com.example.fragmentsdemo;
 
 import androidx.appcompat.app.AppCompatActivity;
