@@ -77,7 +77,7 @@ public class MainForm extends Fragment {
             binding.imageViewMoodView.setImageResource(0);
         }
         else {
-            binding.textViewMoodCaption.setText(String.valueOf(selectedMood));
+            binding.textViewMoodCaption.setText(String.valueOf(selectedMood) + " out of 4");
             switch (selectedMood) {
                 case 0:
                     binding.imageViewMoodView.setImageResource(R.drawable.not_well);

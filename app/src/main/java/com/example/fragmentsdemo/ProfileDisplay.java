@@ -63,6 +63,7 @@ public class ProfileDisplay extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         binding.textViewNameValue.setText(mUser.getName());
         binding.textViewAgeValue.setText(mUser.getAge());
+        binding.textViewMoodStatus.setText(String.valueOf(mUser.getMoodState()) + " out of 4");
         switch (mUser.getMoodState()) {
             case 0:
                 binding.imageViewDisplay.setImageResource(R.drawable.not_well);
